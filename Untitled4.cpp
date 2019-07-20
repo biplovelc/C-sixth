@@ -39,7 +39,7 @@ class Vector
 
 int main()
 {
-	Vector v1(5, 6), v2(4, 8), v3;
+	Vector v1(9, 7), v2(4, 9), v3;
 	v1.display();
 	v2.display();
 	

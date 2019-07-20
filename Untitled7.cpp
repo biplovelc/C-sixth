@@ -40,7 +40,7 @@ int main()
 	Person p1(a), p2(b);
 	
 	if(p1<=p2){
-		cout<<"You are younger than your friend.";
+		cout<<"You are younger than your friend or of same age.";
 	}
 	else{
 		cout<<"Your friend is younger than you.";

@@ -65,13 +65,13 @@ class NumDays
 
 int main()
 {
-	NumDays n1(18), n2(8), n3, n4;
+	NumDays n1(27), n2(18), n3, n4;
 	
 	n3 = n1+n2;
-	cout<<"Addition = "<<n3.getDays()<<endl;
+	cout<<"Days after addition = "<<n3.getDays()<<endl;
 	
 	n4 = n1-n2;
-	cout<<"Difference = "<<n4.getDays()<<endl;
+	cout<<"Days after subtraction = "<<n4.getDays()<<endl;
 	
 	cout<<"\nAfter prefix increment = "<<++n3<<endl;
 	cout<<"After postfix increment = "<<n3++<<endl;

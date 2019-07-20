@@ -27,7 +27,7 @@ class Complex
 
 int main()
 {
-	Complex c1(4, 5), c2(10, 7), c3;
+	Complex c1(4, 52), c2(30, 8), c3;
 	c1.display();
 	c2.display();
 	

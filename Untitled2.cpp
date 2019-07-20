@@ -32,12 +32,12 @@ class Time
 
 int main()
 {
-	Time T1(2, 20), T2(1, 50), T3;
+	Time T1(2, 40), T2(1, 57), T3;
 	T1.display();
 	T2.display();
 	
 	T3 = T1+T2;
-	cout<<"\nAfter sum:\n";
+	cout<<endl<<"After sum:\n";
 	T3.display();
 	
 	

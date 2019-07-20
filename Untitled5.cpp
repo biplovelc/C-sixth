@@ -43,9 +43,9 @@ class Matrix
 int main()
 {
 	Matrix m1, m2,m3;
-	cout<<"Enter elements of matrix for first:\n";
+	cout<<"Enter elements for first matrix:\n";
 	m1.setAll();
-	cout<<"Enter elements of matrix for first:\n";
+	cout<<"Enter elements for second matrix:\n";
 	m2.setAll();
 	
 	cout<<endl;
