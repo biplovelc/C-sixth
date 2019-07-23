@@ -43,6 +43,7 @@ int main()
 	cout<<"Prefix ++ = "<<i<<endl;
 	i = count++;
 	cout<<"Postfix ++ = "<<i<<endl;
+	cout<<"Value of count = "<<count.getCount()<<endl<<endl;
 	
 	count.setAll(1);
 	int a=0;
@@ -50,4 +51,6 @@ int main()
 	cout<<"Prefix -- = "<<a<<endl;
 	a = count--;
 	cout<<"Postfix -- = "<<a<<endl;
+	cout<<"Value of count = "<<count.getCount()<<endl;
+
 }
